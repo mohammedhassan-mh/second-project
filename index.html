@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آيس كريم كواليتي</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* إضافة استجابة للجوال فقط - بدون تغيير التصميم */
+        @media (max-width: 768px) {
+            #navbar {
+                flex-direction: column;
+                text-align: center;
+                padding: 10px;
+            }
+            
+            #navbar img {
+                max-width: 150px;
+                margin: 10px auto;
+            }
+            
+            #rmenu {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            #rmenu li {
+                margin: 5px 0;
+            }
+            
+            .content h1 {
+                font-size: 2rem;
+            }
+            
+            .content p {
+                font-size: 1.2rem;
+            }
+            
+            .imgSs {
+                width: 100%;
+                padding: 0 10px;
+            }
+            
+            .btn {
+                display: block;
+                width: 80%;
+                margin: 20px auto;
+                text-align: center;
+            }
+            
+            .footer {
+                padding: 20px 10px;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .content h1 {
+                font-size: 1.5rem;
+            }
+            
+            .content p {
+                font-size: 1rem;
+            }
+            
+            #logo a {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+     <header>
+        <div id="navbar">
+        <div id="logo"><a  href="Login-Form-main/index.html"> تسجيل  الدخول </a></div>
+            <img src="img es/11.png" alt="آيس كريم كواليتي">
+            <nav>
+                <ul id="rmenu">  
+                    <li><a href="comunication/comun.html">اتواصل معنا</a></li>
+                    <li><a href="about.html"> من  نحن </a></li>
+                    <li><a href="Mun.html" class="menu-item">قائمة آيس كريم</a> 
+                    </li>
+                    <li><a href="Index.html">الصفحة الرئسية</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+           <h1>مرحباٌ بكم   </h1>
+            <p> في مثلجات آيس كريم كواليتي</p>
+            
+        </div>
+     </header>
+     
+<center>
+    <h1>معرض الصور </h1>
+    <div class="imgSs" > 
+     </div>
+    <br>
+</center>
+    <a href="Mun.html" class="btn btn-primary"> عرض آيس كريم </a>
+<footer class="footer">
+    <span class="footer-title">Quality ice cream</span>
+    <p>Copyright @2024 <a href="www.Quality.com">Quality </a>. All Rights Reserved.</p>
+  </footer>
+    <!--Header End-->
+</body>
+</html>

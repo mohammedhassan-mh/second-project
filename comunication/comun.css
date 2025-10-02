@@ -1,0 +1,187 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img {
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    transition: 0.7s;
+}
+
+#navbar img:hover {
+    transform: rotate(360deg);
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 80px;
+    list-style-type: none;
+
+}
+
+#navbar ul li a {
+    padding: 15px 20px;
+    color: aliceblue;
+    font-weight: 600;
+    
+    
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #e4b95b;
+    font-size: 17px;
+  
+}
+
+
+.navb {
+    background-color: #9c4e05b0;
+    direction:ltr;
+}
+
+
+/* بداية اتواصل معنا */
+#bod {
+  
+    background-color: #f3ebeb;
+  
+    direction: rtl;
+}
+
+ .right{
+    display: table-cell;
+    vertical-align: top;
+    padding: 50px;
+    width: 50%;
+}
+
+.right h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #262632;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.right h2 b{
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #ccc;
+    margin: 5px auto 4px;
+}
+
+.right h2 i{
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: #ccc;
+    margin: 0px auto 0px;
+
+}
+.right label{
+    margin-bottom: 15px;
+    float: right;
+    width: 100%;
+}
+
+.right label input{
+    background: #fff;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.right label textarea{
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #666;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+    padding: 10px;
+}
+
+.right button{
+    background: #e4b95b;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.right button:hover{
+    background: #383848;
+}
+
+.left iframe{
+     height: 100%;
+    width: 100%;
+   
+}
+
+.footer {
+    background-color: #9c4e05b0;
+    /* border-top: 2px solid #9c4e05b0; */
+    margin-bottom: 0px;
+    direction: ltr;
+}
+
+.footer .footer-box {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer .footer-box .social-media a:hover {
+    opacity: .7;
+    transition: .5s all ease-in-out;
+}
+
+.footer .footer-box .copyright {
+    color: white;
+    font-size: 20px;
+}
+
+.footer .footer-box .brand {
+    color: white;
+    font-size: 20px;
+}
+
+.footer .footer-box .brand span {
+    color: rgb(225, 203, 91);
+}

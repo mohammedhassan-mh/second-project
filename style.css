@@ -1,0 +1,413 @@
+@import url("https://font.googleapis.com/css2?family=Quicksand1:wght@300;400;500;600;700 display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    /* تمسح الخط الذي تحت الرابط */
+    text-decoration: none;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+/* Utility Classes */
+.primary-text {
+    color: rgb(110, 110, 60);
+    margin-right: 60px;
+    margin-top: 0;
+
+}
+.btn
+{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.btn-primary {
+    color: #100f0f;
+    border: 1px solid #934747;
+   margin-left: 45%;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+.btn-secondary,
+.btn btn-secondary {
+    color: #fff;
+    background: #383838;
+    margin-top: 2rem;
+}
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn btn-secondary:hover
+{
+    background: #e4b95b;
+}
+/* header start */
+header {
+    height: 100vh;
+    background: url('img es/2.jpg')
+     center center/cover no-repeat;
+    position: relative;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img {
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    transition: 0.7s;
+}
+#navbar img:hover {
+    transform: rotate(360deg);
+}
+#navbar ul {
+    display: flex;
+    margin-right: 80px;
+}
+#navbar ul li a {
+    padding: 15px 20px;
+    color: aliceblue;
+    font-weight: 600;
+    
+}
+#navbar ul li a:hover {
+    border-bottom: 2px solid #e4b95b;
+    font-size: 17px;
+  
+}
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+header .content h1 {
+    font-size: 40px;
+    color: honeydew;
+}
+header .content p {
+    margin: 20px 0 40px; 
+    color: honeydew;
+    font-weight: bold;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(68, 58, 58, 0.6);
+}
+header * {
+    z-index: 10;
+}
+/* header End */
+/بداية حول/
+#about {
+    direction:rtl;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+#about .title,
+#menu .title
+ {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#about .h2,
+#menu h2
+ {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 15px;   
+}
+#about .title p,
+#menu .title p 
+ {
+    font-size: 20px;
+    color: #b34a04;
+    font-weight: 600;
+}
+#about .about-content {
+    display: flex;
+    justify-content: space-between;
+}
+#about .about-content img {
+    width: 220px;
+    border-bottom-left-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#about .about-content p {
+    color: #b34a04;
+    margin-right: 5rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+/نهاية حول/
+/* بداية قائمة الطعام */
+#menu {
+    background: #f4f4f4;
+    padding: 5rem 0;
+    /* direction:rtl; */
+}
+#menu .menu-items {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#menu .menu-items .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    margin-bottom: 100px;
+}
+#menu .menu-items .menu-item img {
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin: 20px;
+} 
+#menu .menu-items .menu-item h3 {
+   color: #383838;
+   border-bottom: 1px dashed #c2bdbd;
+   padding-bottom: 20px;
+   margin-bottom: 5px;
+   position: relative;
+}
+#menu .menu-items .menu-item p{
+    margin-top:2em;   
+}
+#menu .btn {
+    display: block;
+    margin: 30px auto 0;
+    background: #e4b95b;
+    color: #fff;
+    cursor: pointer;
+}
+#menu .btn:hover {
+    background: #383848;
+}
+/* نهاية قائمة الطعام */
+/*بداية وقت الدوام daytime start */
+#daytime {
+    background-color: #586178;
+    color: #fff;
+    text-align: center;
+    direction: rtl;
+}
+#daytime .daytime-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+}
+#daytime .daytime-items h3 {
+    font-size: 25px;
+    margin: 15px 0 10px;
+}
+#daytime .daytime-items p {
+    font-weight: 500;
+}
+/*نهاية وقت الدوام daytime End */
+.footer{
+    background: #9c4e05b0;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+  }
+  .footer .footer-title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .footer p{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .footer p a{
+    color: #586178;
+    font-weight: 600;
+    text-decoration: none;
+  }
+/*قائمة منسدله */
+.menu-item{
+display:inline-block;
+padding:15px 20px;
+height:0px;
+line-height:0px;
+color:#675325;
+text-decoration:none;
+}
+.menu-item:focus{background-color:#399015; }
+.menu-item:focus ~ .sub-content{
+max-height:400px;
+transition:max-height 1.5s ease-in; }
+#navbar #logo{
+   width: 90px;
+    height: 40px;
+    padding: 0px 30px;
+    font-size: 1.2em;
+}
+#navbar #logo a{ color: white;}
+#navbar #logo:hover {
+    background-color: #642102;
+    color: rgb(247, 242, 242);
+}
+#contact-box #log{
+    height: 55px;
+    padding: 0px 30px;
+    font-size: 1.2em;
+    background-color: #0f0f12;
+}
+.imgSs{
+    margin: 15px;
+    width:950px;
+    height:500px;
+    border:2px solid silver;
+    background-image:url(img/A.JPG);
+    box-shadow:10px 3px 20px rgb(143, 67, 4);
+    animation-name:photo;
+    animation-delay:1s;
+    animation-duration:6s;
+    animation-iteration-count:infinite;
+    }
+     @keyframes photo{
+    10%{background-image:url(img/A.JPG);}
+    20%{background-image:url(img/B.jpg);}
+    30%{background-image:url(img/C.jpg);}
+    40%{background-image:url(img/D.JPG);}
+    50%{background-image:url(img/E.jpg);}
+    50%{background-image:url(img/F.jpg);}
+    }
+/* إضافة استجابة للجوال فقط - بدون تغيير التصميم */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    #navbar img {
+        max-width: 120px;
+        margin: 10px auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin-right: 0;
+    }
+    #navbar li {
+        margin: 5px 0;
+    }
+    #navbar ul li a {
+        padding: 10px 15px;
+        display: block;
+    }
+    header .content h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 15px;
+    }
+    header .content p {
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .btn-primary {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    #about .about-content img {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+    #about .about-content p {
+        margin-right: 0;
+        padding: 0 15px;
+    }
+    .menu-items {
+        flex-direction: column;
+    }
+    .menu-items-left,
+    .menu-items-right {
+        width: 100%;
+    }
+    .menu-item {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0 !important;
+    }
+    .menu-item img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .imgSs {
+        width: 100%;
+        max-width: 100%;
+        height: 300px;
+        margin: 10px 0;
+    }
+    .footer {
+        padding: 20px 10px;
+    }
+    #navbar #logo {
+        margin: 10px auto;
+    }
+}
+@media (max-width: 480px) {
+    header .content h1 {
+        font-size: 1.5rem;
+    }   
+    header .content p {
+        font-size: 1rem;
+    }
+        #about .h2,
+    #menu h2 {
+        font-size: 1.5rem;
+    }
+    #about .title p,
+    #menu .title p {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+    .imgSs {
+        height: 250px;
+    }
+    #navbar img {
+        max-width: 100px;
+    }
+
+    }
