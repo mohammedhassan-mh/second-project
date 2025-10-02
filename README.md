@@ -53,7 +53,7 @@ A simple and clean website built using **HTML** and **CSS**  **JS** — created 
 ## ✍️ Author
 
 **Mohammed Hassan**  
-📧 youremail@example.com  
+📧 mohammedhassan-mh@example.com  
 🌐 [Portfolio / Website (optional)](https://mohammedhassan-mh.com)
 
 ---
@@ -61,3 +61,4 @@ A simple and clean website built using **HTML** and **CSS**  **JS** — created 
 ## 📄 License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and share it.
+
